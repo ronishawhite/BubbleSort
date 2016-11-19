@@ -1,5 +1,6 @@
 package homework5;
 public class MyClass { 
+
 static void bubbleSort(int[] arr) { 
 int n = arr.length; 
 int temp = 0; 
@@ -16,9 +17,10 @@ arr[j] = temp;
 } 
 
 } 
+//main method
 public static void main(String[] args) { 
 int arr[] ={37,609,365,20,45,32,5}; 
-
+//bubble sort print method
 System.out.println("Array Before Bubble Sort"); 
 for(int i=0; i < arr.length; i++){ 
 System.out.print(arr[i] + " "); 
